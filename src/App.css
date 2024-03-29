@@ -131,3 +131,7 @@ body {
     background-position: center;
  
   }
+a:visited{
+  text-decoration: none;
+  color: #ffffff;
+}

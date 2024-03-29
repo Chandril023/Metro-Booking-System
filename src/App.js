@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/home';
 import Login from './components/login';
 import Signup from './components/signup';
+import Contact from './components/contact';
 import './App.css';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
    <Router>
    <Routes>
      <Route path='/' element={<Home onLoginClick={handleLoginClick}  onSignupClick={handleSignupClick}/>}/>
+     <Route path='/contact' element={<Contact/>}/>
      <Route path="/login" element={<Login onLoginClose={handleLoginClose}/>}  />
      <Route path="/signup" element={<Signup onSignupCLose={handleSignnupClose}/>}  />
    </Routes>

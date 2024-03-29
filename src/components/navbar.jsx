@@ -23,7 +23,7 @@ export default function Navbar({ onLoginClick, onSignupClick }){
   <li onClick={handleSignupClick}>Signup</li>
   <li>Staff</li>
   <li>Notice</li>
-  <li>Contact Us</li>
+  <li><a href='#contact'>Contact Us</a></li>
   <li>More</li>
   </ul>
   </div>
